@@ -1,0 +1,188 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1, h3 {
+  font-family: 'Bree Serif', serif;
+  color: #fff;
+}
+
+h2 {
+  color: #519872;
+  padding-left: 10%;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+  margin-right: 0;
+}
+
+.nav-item {
+  padding: auto 7%;
+}
+
+/* about section */
+.about-us {
+  padding: 5%;
+  background-color: #3b5249;
+}
+
+.about-para {
+  color: #a4b494;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0 3%;
+}
+
+.title-image {
+  margin-top: 3%;
+}
+
+/*  feature section */
+.feature-box {
+  background-color: #a4b494;
+  color: #3b5249;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 7% 2%;
+  text-align: center;
+}
+
+.feature-img {
+  margin: 3%;
+}
+
+.feature-img:hover {
+  color: #519872;
+}
+
+/* downoad */
+#download {
+  background-color: #3b5249;
+  padding: 8%;
+  text-align: center;
+}
+
+.dn-bt {
+  margin: 3%;
+}
+
+/* call to action  */
+#footer {
+  background-color: #519872;
+  padding: 7% 5% 5%;
+  text-align: center;
+}
+
+.footer-p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.cyp {
+  color: #a4b494;
+}
+
+.foot-btn:hover {
+  color: #a4b494;
+}
+
+/* bag section  page*/
+.bag-main{
+  background-color: #3b5249;
+}
+.hb-img {
+  height: 400px;
+  width: 90px;
+}
+
+.top-hb {
+  margin: auto;
+  padding: 5% 2%;
+  text-align: center;
+}
+
+.wb-img {
+  height: 400px;
+  width: 300px;
+}
+
+/* form section */
+.form-title {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.form-body {
+  background-color: #3b5249;
+  border: 20px double #a4b494;
+  color: #a4b494;
+}
+
+.form-pg {
+  margin: 3% 25% 4%;
+}
+
+.form-Remember-me {
+  color: #a4b494;
+}
+
+.form-signin {
+  margin: 2% 15%;
+}
+
+/* welcome page */
+.wc-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.wc-para {
+  margin-top: 4%;
+  padding: 0 10%;
+  text-align: justify;
+}
+
+.welcome-pg {
+  background-color: #a4b494;
+  color: #3b5249;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 5% 0 9%;
+  text-align: center;
+}
+
+.wc-greet {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-right: 10%;
+  text-align: right;
+}
+
+/* welcome section */
+.download-body {
+  background-color: #519872;
+  text-align: center;
+}
+
+.download-container {
+  margin: 10% auto;
+}
+
+/* sorry page */
+
+.sorry-title{
+  margin: 2%;
+}
+
+.sorry-para{
+  margin: 4%;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}

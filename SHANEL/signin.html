@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Sign-In</title>
+  <link rel="icon" href="favicon.ico">
+
+  <!-- style sheets -->
+  <link rel="stylesheet" href="css/styless.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Anton&family=Bree+Serif&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/91ade115f7.js" crossorigin="anonymous"></script>
+
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript">
+    function login() {
+      var userName = document.getIdByElement("inputName").value;
+      var userEmail = document.getIdByElement("inputEmail4").value;
+      var userPwd = document.getIdByElement("inputPassword4").value;
+      var userAddr = document.getIdByElement("inputAddress").value;
+      var userCity = document.getIdByElement("inputCity").value;
+      var userState = document.getIdByElement("inputState").value;
+      var userZip = document.getIdByElement("inputZip").value;
+      var userCont = document.getIdByElement("inputcontact").value;
+      var userCont2 = document.getIdByElement("inputcontact2").value;
+    }
+    if (userName != " " && userEmail != "" && userPwd != "" && userAddr != "" && userCity != "" && userState != "" && userZip != "" && ) {
+      alert("Sign In sucessfully"); {
+        else {
+          alert("Redo The Process")
+        }
+      }
+    }
+  </script>
+
+
+</head>
+
+<body>
+
+  <!-- navigation bar -->
+
+  <div class="containers-index">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="">
+        <h1>SHANEL</h1>
+      </a>
+    </nav>
+
+  </div>
+
+  <!-- form -->
+
+  <div class="form-body">
+    <form class="form-pg">
+      <h1 class="form-title">Sign-In</h1>
+      <div class="form-row">
+        <div class="form-group col-lg-12">
+          <label for="inputName">
+            <h4>Name: </h4>
+          </label>
+          <input type="text" class="form-control" id="inputName">
+        </div>
+        <div class="form-group col-lg-12 ">
+          <label for="inputEmail4">
+            <h4>Email:</h4>
+          </label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="form-group col-lg-12">
+          <label for="inputPassword4">
+            <h4>Password:</h4>
+          </label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">
+          <h4>Address:</h4>
+        </label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Apartment, Street Name, Area">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">
+          <h4>Landmark:</h4>
+        </label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Near Shop..etc">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 col-sm-6">
+          <label for="inputcontact">
+            <h4>Contact:</h4>
+          </label>
+          <input type="text" class="form-control" id="inputcontact">
+        </div>
+        <div class="form-group col-md-6 col-sm-6">
+          <label for="inputcontact2">
+            <h4>Contact: </h4>
+          </label>
+          <input type="text" class="form-control" id="inputcontact2">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="inputCity">
+            <h4>City:</h4>
+          </label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">
+            <h4>State:</h4>
+          </label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Argentina</option>
+            <option>Belgium</option>
+            <option>Canada</option>
+            <option>Denmark</option>
+            <option>Japan</option>
+            <option>India</option>
+            <option>Moroco</option>
+            <option>New York</option>
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputZip">
+            <h4>Zip Code:</h4>
+          </label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            <h5>Remember me!</h5>
+          </label>
+        </div>
+      </div>
+      <div>
+        <a href="welcome.html" class="btn btn-info btn-lg btn-dark form-signin" role="button" onclick="login()">
+          <h4>Sign in</h4>
+        </a>
+        <a href="home.html" class="btn btn-info btn-lg btn-dark form-signin" role="button">
+          <h4>Go Back</h4>
+        </a>
+      </div>
+    </form>
+
+  </div>
+
+  <!-- call to action  -->
+
+  <footer id="footer">
+
+    <p class="footer-p">Find The Perfect Bag For Your Dope Collection Today.</p>
+    <a class="btn " href="https://twitter.com/"><i class="fab fa-twitter foot-btn"></i></a></button>
+    <a class="btn " href="https://instagram.com/"><i class="fab fa-instagram foot-btn"></i></a></button>
+    <a class="btn " href="https://facebook.com/"><i class="fab fa-facebook foot-btn"></i></a></button>
+    <a class="btn " href="https://gmail.com/"><i class="fas fa-envelope foot-btn"></i></a></button>
+    <p class="cyp">© Copyright 2020 Anjali Chauhan</p>
+
+  </footer>
+
+</body>
+
+</html>
